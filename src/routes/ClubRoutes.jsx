@@ -6,9 +6,9 @@ import QuienesSomos from '../page/QuienesSomos'
 const ClubRoutes = () => {
   return (
     <Routes>
-        <Route path='/' element={<Home/>}/>
-        <Route path='/contactanos' element={<Contactanos/>}/>
-        <Route path='/quienes-somos' element={<QuienesSomos/>}/>
+        <Route path='/apoloweb/' element={<Home/>}/>
+        <Route path='/apoloweb/contactanos' element={<Contactanos/>}/>
+        <Route path='/apoloweb/quienes-somos' element={<QuienesSomos/>}/>
     </Routes>
   )
 }
