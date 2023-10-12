@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/apoloweb/static/css/main.1cf0f15b.css",
-    "main.js": "/apoloweb/static/js/main.8cf0f1bc.js",
+    "main.css": "/apoloweb/static/css/main.35edf2c1.css",
+    "main.js": "/apoloweb/static/js/main.01ea82c6.js",
     "static/js/787.1043f856.chunk.js": "/apoloweb/static/js/787.1043f856.chunk.js",
     "static/media/2.jpg": "/apoloweb/static/media/2.d5123d6c9e64f1b41064.jpg",
     "static/media/10.jpg": "/apoloweb/static/media/10.5eabca5c971ca65fbc84.jpg",
@@ -9,17 +9,19 @@
     "static/media/1.jpg": "/apoloweb/static/media/1.2c71bcec48a55391b1d9.jpg",
     "static/media/maps.jpg": "/apoloweb/static/media/maps.836d2a6b7a5108f6a7ba.jpg",
     "static/media/8.jpg": "/apoloweb/static/media/8.0f3ce5691bf6a4b33641.jpg",
+    "static/media/niños1.jpg": "/apoloweb/static/media/niños1.92cf9ac1e701521b5933.jpg",
     "static/media/6.jpg": "/apoloweb/static/media/6.7275fe86572ec72ffb56.jpg",
     "static/media/3.jpg": "/apoloweb/static/media/3.09af23a0f0cac55f1839.jpg",
+    "static/media/niños.jpg": "/apoloweb/static/media/niños.ca07e46a8a022bbbbc0c.jpg",
     "static/media/logo.jpg": "/apoloweb/static/media/logo.bfd91feae2c9b5556345.jpg",
     "static/media/acerca.jpg": "/apoloweb/static/media/acerca.0dd8bf4b278e6e02c355.jpg",
     "index.html": "/apoloweb/index.html",
-    "main.1cf0f15b.css.map": "/apoloweb/static/css/main.1cf0f15b.css.map",
-    "main.8cf0f1bc.js.map": "/apoloweb/static/js/main.8cf0f1bc.js.map",
+    "main.35edf2c1.css.map": "/apoloweb/static/css/main.35edf2c1.css.map",
+    "main.01ea82c6.js.map": "/apoloweb/static/js/main.01ea82c6.js.map",
     "787.1043f856.chunk.js.map": "/apoloweb/static/js/787.1043f856.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.1cf0f15b.css",
-    "static/js/main.8cf0f1bc.js"
+    "static/css/main.35edf2c1.css",
+    "static/js/main.01ea82c6.js"
   ]
 }
