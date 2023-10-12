@@ -1,21 +1,22 @@
 {
   "files": {
-    "main.css": "/apoloweb/static/css/main.ce4eff33.css",
-    "main.js": "/apoloweb/static/js/main.1ec4d58f.js",
+    "main.css": "/apoloweb/static/css/main.2592fe9a.css",
+    "main.js": "/apoloweb/static/js/main.b48d940c.js",
     "static/js/787.1043f856.chunk.js": "/apoloweb/static/js/787.1043f856.chunk.js",
     "static/media/2.jpg": "/apoloweb/static/media/2.c47102ff75807467d93d.jpg",
+    "static/media/maps.jpg": "/apoloweb/static/media/maps.836d2a6b7a5108f6a7ba.jpg",
     "static/media/8.jpg": "/apoloweb/static/media/8.0f3ce5691bf6a4b33641.jpg",
     "static/media/6.jpg": "/apoloweb/static/media/6.7275fe86572ec72ffb56.jpg",
     "static/media/3.jpg": "/apoloweb/static/media/3.09af23a0f0cac55f1839.jpg",
     "static/media/logo.jpg": "/apoloweb/static/media/logo.bfd91feae2c9b5556345.jpg",
     "static/media/acerca.jpg": "/apoloweb/static/media/acerca.0dd8bf4b278e6e02c355.jpg",
     "index.html": "/apoloweb/index.html",
-    "main.ce4eff33.css.map": "/apoloweb/static/css/main.ce4eff33.css.map",
-    "main.1ec4d58f.js.map": "/apoloweb/static/js/main.1ec4d58f.js.map",
+    "main.2592fe9a.css.map": "/apoloweb/static/css/main.2592fe9a.css.map",
+    "main.b48d940c.js.map": "/apoloweb/static/js/main.b48d940c.js.map",
     "787.1043f856.chunk.js.map": "/apoloweb/static/js/787.1043f856.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.ce4eff33.css",
-    "static/js/main.1ec4d58f.js"
+    "static/css/main.2592fe9a.css",
+    "static/js/main.b48d940c.js"
   ]
 }
