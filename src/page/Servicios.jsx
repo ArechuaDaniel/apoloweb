@@ -2,14 +2,14 @@ import React from 'react'
 import Header from '../components/Header'
 import Footer from '../components/Footer'
 
-const QuienesSomos = () => {
+const Servicios = () => {
   return (
     <>
-      <Header/>
-      <h1>Quienes somos</h1>
-      <Footer/>
+    <Header/>
+        
+    <Footer/>
     </>
   )
 }
 
-export default QuienesSomos
+export default Servicios
