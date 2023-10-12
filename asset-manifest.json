@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/apoloweb/static/css/main.aa256cfd.css",
-    "main.js": "/apoloweb/static/js/main.8c9cd4fe.js",
+    "main.css": "/apoloweb/static/css/main.5c707c4b.css",
+    "main.js": "/apoloweb/static/js/main.8e32b739.js",
     "static/js/787.1043f856.chunk.js": "/apoloweb/static/js/787.1043f856.chunk.js",
     "static/media/2.jpg": "/apoloweb/static/media/2.d5123d6c9e64f1b41064.jpg",
     "static/media/1.jpg": "/apoloweb/static/media/1.2c71bcec48a55391b1d9.jpg",
@@ -13,12 +13,12 @@
     "static/media/logo.jpg": "/apoloweb/static/media/logo.bfd91feae2c9b5556345.jpg",
     "static/media/acerca.jpg": "/apoloweb/static/media/acerca.0dd8bf4b278e6e02c355.jpg",
     "index.html": "/apoloweb/index.html",
-    "main.aa256cfd.css.map": "/apoloweb/static/css/main.aa256cfd.css.map",
-    "main.8c9cd4fe.js.map": "/apoloweb/static/js/main.8c9cd4fe.js.map",
+    "main.5c707c4b.css.map": "/apoloweb/static/css/main.5c707c4b.css.map",
+    "main.8e32b739.js.map": "/apoloweb/static/js/main.8e32b739.js.map",
     "787.1043f856.chunk.js.map": "/apoloweb/static/js/787.1043f856.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.aa256cfd.css",
-    "static/js/main.8c9cd4fe.js"
+    "static/css/main.5c707c4b.css",
+    "static/js/main.8e32b739.js"
   ]
 }
