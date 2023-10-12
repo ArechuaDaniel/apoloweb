@@ -1,7 +1,9 @@
 import { Route, Routes } from 'react-router-dom'
 import Home from '../page/Home'
 import Contactanos from '../page/Contactanos'
-import QuienesSomos from '../page/QuienesSomos'
+
+
+import Nosotros from '../page/Nosotros'
 import Servicios from '../page/Servicios'
 
 const ClubRoutes = () => {
@@ -9,8 +11,8 @@ const ClubRoutes = () => {
     <Routes>
         <Route path='/apoloweb/' element={<Home/>}/>
         <Route path='/apoloweb/contactanos' element={<Contactanos/>}/>
-        <Route path='/apoloweb/quienes-somos' element={<QuienesSomos/>}/>
-        <Route path='/apoloweb/servicios' element={<Servicios/>}/>
+        <Route path='/apoloweb/Servicios' element={<Servicios/>}/>
+        <Route path='/apoloweb/nosotros' element={<Nosotros/>}/>
     </Routes>
   )
 }

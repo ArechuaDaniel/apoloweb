@@ -7,7 +7,7 @@ const Header = () => {
   const Links = [
     { name: "Home", link: "/apoloweb/" },
     { name: "Servicios", link: "/apoloweb/servicios" },
-    { name: "Quienes somos", link: "/apoloweb/quienes-somos" },
+    { name: "Nosotros", link: "/apoloweb/nosotros" },
     { name: "Contáctanos", link: "/apoloweb/contactanos" },
   ];
 
