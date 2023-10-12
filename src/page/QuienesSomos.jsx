@@ -5,6 +5,7 @@ const QuienesSomos = () => {
   return (
     <>
       <Header/>
+      <h1>Quienes somos</h1>
     </>
   )
 }
