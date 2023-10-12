@@ -56,7 +56,7 @@ const Home = () => {
           
         {/* //INSTRUCTORES */}
         <div className='text-white'>
-          <h2 className=' md:text-5xl text-2xl flex justify-center text-red-400 mb-4'>Instructores</h2>
+          <h2 className=' md:text-5xl text-2xl flex justify-center text-red-400 mb-4 uppercase'>Instructores</h2>
           <p className='m-6 text-justify'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem quis quas ducimus quibusdam vero cum ullam nulla ab est excepturi impedit maxime facere fugiat voluptatibus, odit earum amet commodi illo.lorem Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ratione et voluptates unde suscipit, cum nihil, nemo ullam voluptatem a nesciunt, incidunt nostrum sint excepturi? Nesciunt, itaque. Officiis cupiditate quia excepturi?</p>
           <div className=' text-xl flex flex-col md:flex-row md:justify-around items-center text-white'>
             <div className='bg-slate-800 w-72 rounded-lg m-6'>
