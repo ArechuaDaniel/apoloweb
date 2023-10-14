@@ -6,7 +6,7 @@ const Header = () => {
   const logo = require.context('../assets', true);
   const Links = [
     { name: "Home", link: "/apoloweb/" },
-    { name: "Servicios", link: "/apoloweb/servicios" },
+    { name: "Galeria", link: "/apoloweb/galeria" },
     { name: "Nosotros", link: "/apoloweb/nosotros" },
     { name: "Contáctanos", link: "/apoloweb/contactanos" },
   ];
@@ -15,7 +15,7 @@ const Header = () => {
   
   return (
     <>
-      <div className="bg-slate-800  text-white uppercase font-bold flex md:flex-row flex-col justify-between  h-24 md:items-center fixed w-full">
+      <div className="bg-slate-800  text-white uppercase font-bold flex md:flex-row flex-col justify-between  h-24 md:items-center fixed w-full  ">
         {/* Logo del club */}
         <div className="md:w-1/3 w-64">
           <NavLink
@@ -39,8 +39,6 @@ const Header = () => {
               Links.map((Link) => (
                 <NavLink key={Link.name}
                 className={({isActive}) => (isActive ? 'text-red-400' : '')} 
-                
-
                to={Link.link}>
                 <p className="p-4 md:hover:text-red-400 md:hover:bg-transparent hover:bg-red-400 w-full hover:text-white ">{Link.name}</p></NavLink>
               ))

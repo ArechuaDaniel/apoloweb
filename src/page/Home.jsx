@@ -15,7 +15,7 @@ const Home = () => {
 
         <div className='flex md:items-center items-end justify-start'>
           <p className='text-white md:text-3xl text-xs text-center md:ml-12  uppercase font-bold absolute  w-48 '>Bienvenidos al Club Especializado <span className='text-red-400'> Apolo </span></p>
-          <img className='h-min w-full md:mt-0 mt-20' src={sliderCarrousel(`./6.jpg`)} alt='Imagen' />
+          <img  className='h-min w-full md:mt-0 mt-20' src={sliderCarrousel(`./11.jpg`)} alt='Imagen' />
 
         </div>
 
@@ -67,6 +67,10 @@ const Home = () => {
               <img className='h-80 w-52 mx-auto my-4 rounded-md ' src={instructores(`./2.jpg`)} alt='Imagen' />
               <h6 className='text-center my-4 font-bold'>Tatiana Suarez</h6>
             </div>
+            <div className='bg-slate-800 w-72 rounded-lg m-6 '>
+              <img className='h-80 w-52 mx-auto my-4 rounded-md' src={instructores(`./1.jpg`)} alt='Imagen' />
+              <h6 className='text-center my-4 font-bold'>Juanito </h6>
+            </div>
           </div>
         </div>
 
@@ -94,6 +98,18 @@ const Home = () => {
           <p className='text-center w:mr-64'>Av. Padre Luis Vaccari N9-59 <br></br> Carapungo - Quito - Ecuador</p>
           </div>
         </div>
+
+        <div className='md:mx-auto text-white m-6 md:w-1/2 bg-slate-800 rounded-xl mb-6'>
+                    <h1 className='md:text-3xl text-xl m-4 pt-4'>ÚNETE A NUESTRO <span className='text-red-400'>CLUB</span> </h1>
+                    <p className='uppercase text-justify m-4'>Forma parte de nuestra institución, CON MÁS DE 30 AÑOS DE EXPERIENCIA AL SERVICIO DE LA COMUNIDAD, OFRECIENDO RESULTADOS CONFIABLES Y GARANTIZADOS.</p>
+
+                    <NavLink
+                        className='flex justify-center'
+                        to='https://api.whatsapp.com/send?phone=593960073310&text=hola,%20m%C3%A1s%20informaci%C3%B3n%20por%20favor%20'>
+                        <h1 className='bg-sky-700 m-6 md:mb-6 md:w-56  w-full text-center py-3 text-white uppercase font-bold rounded-xl hover:cursor-pointer hover:bg-sky-800 transition-colors'>Más Información</h1>
+
+                    </NavLink>
+          </div>
         
         <Footer />
       </div>

@@ -31,7 +31,8 @@ const Contactanos = () => {
             <img className=" rounded-3xl w-20 h-20 p-2" src={logo(`./logo.jpg`)} />
             <h3 className="hover:text-red-400 text-xs">Club Especializado <span className="text-red-400">Apolo</span></h3>
           </NavLink>
-          <div className='m-4 '>
+
+          <div className='my-4 '>
           <h1 className='text-center mt-4'>Contacto</h1>
           <p className='lowercase mt-4 text-center'><ion-icon name="mail-outline"></ion-icon> club.apolo@hotmail.com</p>
           <p className='mt-4 text-center'><ion-icon name="call-outline"></ion-icon> 0960073310</p>
