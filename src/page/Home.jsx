@@ -13,8 +13,20 @@ const Home = () => {
       <Header />
       <div className='bg-slate-700 w-screen' >
 
-        <div className='flex md:items-center items-end justify-start'>
-          <p className='text-white md:text-3xl text-xs text-center md:ml-12  uppercase font-bold absolute  w-48 '>Bienvenidos al Club Especializado <span className='text-red-400'> Apolo </span></p>
+        <div className='flex md:items-center items-end justify-center md:justify-start'>
+        <div className='absolute bg-slate-600 rounded-xl m-4 opacity-80 '>
+          <h1 className='text-white md:text-3xl w-80 text-xl text-center m-4 uppercase font-bold 
+          '>Bienvenidos al Club Especializado
+            <span className='text-red-400 '> Apolo </span>
+           </h1>
+          
+                    <NavLink
+                        className='flex justify-center'
+                        to='https://api.whatsapp.com/send?phone=593960073310&text=hola,%20m%C3%A1s%20informaci%C3%B3n%20por%20favor%20'>
+                        <h1 className='bg-sky-700 m-4 md:mb-4 md:w-56  w-full text-center py-3 text-white uppercase font-bold rounded-xl hover:cursor-pointer hover:bg-sky-800 transition-colors'>Más Información</h1>
+
+                    </NavLink>
+          </div>
           <img  className='h-min w-full md:mt-0 mt-20' src={sliderCarrousel(`./11.jpg`)} alt='Imagen' />
 
         </div>
