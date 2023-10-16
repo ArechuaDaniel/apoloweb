@@ -1,7 +1,23 @@
-import React from 'react'
+import React, { useRef, useState } from 'react';
 import { NavLink } from 'react-router-dom'
 import Header from '../components/Header';
 import Footer from '../components/Footer';
+import '../App.css'
+
+
+// Import Swiper React components
+import { Swiper, SwiperSlide } from 'swiper/react';
+
+// Import Swiper styles
+import 'swiper/css';
+import 'swiper/css/pagination';
+import 'swiper/css/navigation';
+
+
+// import required modules
+import { Autoplay, Pagination, Navigation } from 'swiper/modules';
+
+
 
 const Galeria = () => {
     const sliderCarrousel = require.context('../assets/slider', true);
@@ -13,6 +29,12 @@ const Galeria = () => {
         { name: "Contáctanos", link: "/apoloweb/contactanos" },
       ];
 
+      const progressCircle = useRef(null);
+      const progressContent = useRef(null);
+      const onAutoplayTimeLeft = (s, time, progress) => {
+        progressCircle.current.style.setProperty('--progress', 1 - progress);
+        progressContent.current.textContent = `${Math.ceil(time / 1000)}s`;
+      }
 
 
   return (
@@ -20,6 +42,7 @@ const Galeria = () => {
             <div className='bg-slate-700'>
 
             <Header />
+            
             <div className='flex md:items-center items-end justify-center bg-slate-700'>
                 <p className='absolute text-white decoration-sky-600 md:text-9xl text-2xl   text-center  uppercase font-bold   '>Galería</p>
                 <img className='w-full   mt-24 ' src={sliderCarrousel(`./niños1.jpg`)} alt='Imagen' />
@@ -27,6 +50,7 @@ const Galeria = () => {
 
               {/* IMAGENES */}
 
+              
              {/* ASCENSOS  */}
             <div>
             <h1 className='text-white md:text-3xl uppercase m-4'>Ascensos de <span className='text-red-400'> cinturón </span></h1>
@@ -66,7 +90,37 @@ const Galeria = () => {
           </div>
 ñ
 
-          
+<Swiper
+        spaceBetween={30}
+        centeredSlides={true}
+        autoplay={{
+          delay: 2500,
+          disableOnInteraction: false,
+        }}
+        pagination={{
+          clickable: true,
+        }}
+        navigation={true}
+        modules={[Autoplay, Pagination, Navigation]}
+        onAutoplayTimeLeft={onAutoplayTimeLeft}
+        className="mySwiper"
+      >
+        <SwiperSlide>Slide 1</SwiperSlide>
+        <SwiperSlide>Slide 2</SwiperSlide>
+        <SwiperSlide>Slide 3</SwiperSlide>
+        <SwiperSlide>Slide 4</SwiperSlide>
+        <SwiperSlide>Slide 5</SwiperSlide>
+        <SwiperSlide>Slide 6</SwiperSlide>
+        <SwiperSlide>Slide 7</SwiperSlide>
+        <SwiperSlide>Slide 8</SwiperSlide>
+        <SwiperSlide>Slide 9</SwiperSlide>
+        <div className="autoplay-progress" slot="container-end">
+          <svg viewBox="0 0 48 48" ref={progressCircle}>
+            <circle cx="24" cy="24" r="20"></circle>
+          </svg>
+          <span ref={progressContent}></span>
+        </div>
+      </Swiper>
             
            
             <Footer />

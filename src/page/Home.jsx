@@ -10,12 +10,12 @@ const Home = () => {
 
   return (
     <>
-      <Header />
       <div className='bg-slate-700 w-screen' >
+      <Header />
 
         <div className='flex md:items-center items-end justify-center md:justify-start'>
         <div className='absolute bg-slate-600 rounded-xl m-4 opacity-80 '>
-          <h1 className='text-white md:text-3xl w-80 text-xl text-center m-4 uppercase font-bold 
+          <h1 className='text-white md:text-3xl text-sm md:w-80  text-center m-4 uppercase font-bold 
           '>Bienvenidos al Club Especializado
             <span className='text-red-400 '> Apolo </span>
            </h1>
@@ -23,7 +23,7 @@ const Home = () => {
                     <NavLink
                         className='flex justify-center'
                         to='https://api.whatsapp.com/send?phone=593960073310&text=hola,%20m%C3%A1s%20informaci%C3%B3n%20por%20favor%20'>
-                        <h1 className='bg-sky-700 m-4 md:mb-4 md:w-56  w-full text-center py-3 text-white uppercase font-bold rounded-xl hover:cursor-pointer hover:bg-sky-800 transition-colors'>Más Información</h1>
+                        <h1 className='bg-sky-700 mx-2 mb-2 md:mb-4 md:w-56  w-full text-center py-3 text-white uppercase font-bold rounded-xl hover:cursor-pointer hover:bg-sky-800 transition-colors text-sm '>Más Información</h1>
 
                     </NavLink>
           </div>
