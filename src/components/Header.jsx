@@ -34,7 +34,7 @@ const Header = () => {
         {/* NavBar */}
         <div className={`md:w-2/3   w-full  md:text-white text-red-400  `}>
 
-          <ul className={`w-full bg-slate-800 bg-opacity-75 md:text-xl text-xs  flex md:flex-row flex-col md:justify-between md:items-center items-start transition-all duration-150 ease-in absolute md:static ${open ? "top-20" : "top-[-490px]"}`}>
+          <ul className={`w-full bg-slate-800 bg-opacity-75 md:text-xl text-xs  flex md:flex-row flex-col md:justify-between md:items-center items-start transition-all duration-150 ease-in absolute md:static  ${open ? "top-20" : "top-[-490px]"}`}>
             {
               Links.map((Link) => (
                 <NavLink key={Link.name}
@@ -45,7 +45,7 @@ const Header = () => {
             }
             <NavLink className={({isActive}) => (isActive ? 'text-red-400' : '')} 
              to='http://sysrickyj09.pythonanywhere.com/login'>
-              <p className="p-4 md:hover:text-red-400 md:hover:bg-transparent hover:bg-red-400 w-full hover:text-white "><ion-icon name="log-in-outline"></ion-icon></p></NavLink>
+              <p className="p-4 md:hover:text-red-400 md:hover:bg-transparent hover:bg-red-400  hover:text-white "><ion-icon name="log-in-outline"></ion-icon></p></NavLink>
 
           </ul>
         </div>
