@@ -82,8 +82,8 @@ const Galeria = () => {
 
         {/* COMPETENCIAS  */}
         <div>
-          <h1 className='text-white md:text-3xl uppercase m-10'>CAMPEONATOS</h1>
-          <div className='h-96 md:mx-32 mx-10'>
+          <h1 className='text-white md:text-3xl uppercase m-10 '>CAMPEONATOS</h1>
+          <div className='h-96 md:mx-32 mx-10 '>
           <Swiper 
         spaceBetween={30}
         centeredSlides={true}

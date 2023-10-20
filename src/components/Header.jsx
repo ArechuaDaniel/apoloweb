@@ -39,13 +39,13 @@ const Header = () => {
               Links.map((Link) => (
                 <NavLink key={Link.name}
                 className={({isActive}) => (isActive ? 'text-red-400' : '')} 
-               to={Link.link}>
-                <p className="p-4 md:hover:text-red-400 md:hover:bg-transparent hover:bg-red-400 w-full hover:text-white ">{Link.name}</p></NavLink>
+               to={Link.link}> 
+                <p className="p-4 md:hover:text-red-400 md:hover:bg-transparent hover:bg-red-400 md:w-full w-screen hover:text-white ">{Link.name}</p></NavLink>
               ))
             }
             <NavLink className={({isActive}) => (isActive ? 'text-red-400' : '')} 
              to='http://sysrickyj09.pythonanywhere.com/login'>
-              <p className="p-4 md:hover:text-red-400 md:hover:bg-transparent hover:bg-red-400  hover:text-white "><ion-icon name="log-in-outline"></ion-icon></p></NavLink>
+              <p className="p-4 md:hover:text-red-400 md:hover:bg-transparent hover:bg-red-400  hover:text-white md:w-full w-screen"><ion-icon name="log-in-outline"></ion-icon></p></NavLink>
 
           </ul>
         </div>

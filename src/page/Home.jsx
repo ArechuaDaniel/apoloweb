@@ -10,12 +10,17 @@ const Home = () => {
 
   return (
     <>
-      <div className='bg-slate-700 w-screen' >
-      <Header />
+      <Header/>
+      <div className='bg-slate-700 w-screen ' >
 
-        <div className='flex md:items-center items-end justify-center md:justify-start'>
-        <div className='absolute bg-slate-600 rounded-xl m-4 opacity-80 '>
-          <h1 className='text-white md:text-3xl text-sm md:w-80  text-center m-4 uppercase font-bold 
+        <div className='flex md:items-center items-end justify-center md:justify-start h-96' 
+        style={{backgroundImage: `url('https://i.pinimg.com/564x/1a/a7/c5/1aa7c542ffd6a513cb6f1c6da6a432da.jpg')`,height:'100vh',
+        fontSize:'50px',
+        backgroundSize: 'cover',
+        backgroundRepeat: 'no-repeat',}}
+        >
+        <div className=' bg-slate-600 rounded-xl m-4 p-4 '>
+          <h1 className='text-white md:text-3xl text-sm md:w-80 mb-4 text-center uppercase font-bold 
           '>Bienvenidos al Club Especializado
             <span className='text-red-400 '> Apolo </span>
            </h1>
@@ -23,12 +28,14 @@ const Home = () => {
                     <NavLink
                         className='flex justify-center'
                         to='https://api.whatsapp.com/send?phone=593960073310&text=hola,%20m%C3%A1s%20informaci%C3%B3n%20por%20favor%20'>
-                        <h1 className='bg-sky-700 mx-2 mb-2 md:mb-4 md:w-56  w-full text-center py-3 text-white uppercase font-bold rounded-xl hover:cursor-pointer hover:bg-sky-800 transition-colors text-sm '>Más Información</h1>
+                          
+                        <h1 className='bg-sky-700 mx-2 mb-2 md:mb-4 md:w-56  w-full text-center py-3 text-white uppercase font-bold rounded-xl hover:cursor-pointer hover:bg-sky-800 transition-colors text-sm '>
+                        
+                           Más Información
+                          </h1>
 
                     </NavLink>
           </div>
-          <img  className='h-min w-full md:mt-0 mt-20' src={sliderCarrousel(`./11.jpg`)} alt='Imagen' />
-
         </div>
 
         {/* //ACERCA DE NOSOTROS */}
