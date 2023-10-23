@@ -23,21 +23,25 @@ const Footer = () => {
           <div className='flex flex-row justify-around mt-4 text-3xl'>
           <NavLink 
             className='flex flex-row items-center ml-2 hover:text-red-400 '
+            target="_blank"
             to='https://www.facebook.com/club.apolo1'>
             <ion-icon name="logo-facebook"></ion-icon>
           </NavLink>
           <NavLink 
             className='flex flex-row items-center ml-2 hover:text-red-400 '
+            target="_blank"
             to='https://www.tiktok.com/@club.apolo?_t=8YtMmXggyWc&_r=1'>
             <ion-icon name="logo-tiktok"></ion-icon>
           </NavLink>
           <NavLink 
             className='flex flex-row items-center ml-2 hover:text-red-400 '
+            target="_blank"
             to='https://www.instagram.com/club.apolo/?igshid=YmMyMTA2M2Y%3D'>
             <ion-icon name="logo-instagram"></ion-icon>
           </NavLink>
           <NavLink 
             className='flex flex-row items-center ml-2 hover:text-red-400 '
+            target="_blank"
             to='https://api.whatsapp.com/send?phone=593960073310&text=hola,%20m%C3%A1s%20informaci%C3%B3n%20por%20favor%20'>
             <ion-icon name="logo-whatsapp"></ion-icon>
           </NavLink>

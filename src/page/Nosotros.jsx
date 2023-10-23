@@ -48,6 +48,7 @@ const Nosotros = () => {
 
                     <NavLink
                         className='flex justify-center'
+                        target="_blank"
                         to='https://api.whatsapp.com/send?phone=593960073310&text=hola,%20m%C3%A1s%20informaci%C3%B3n%20por%20favor%20'>
                         <h1 className='bg-sky-700 m-6 md:mb-6 md:w-56  w-full text-center py-3 text-white uppercase font-bold rounded-xl hover:cursor-pointer hover:bg-sky-800 transition-colors'>Más Información</h1>
 

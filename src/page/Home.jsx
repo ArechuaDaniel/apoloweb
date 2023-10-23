@@ -27,6 +27,7 @@ const Home = () => {
           
                     <NavLink
                         className='flex justify-center'
+                        target="_blank"
                         to='https://api.whatsapp.com/send?phone=593960073310&text=hola,%20m%C3%A1s%20informaci%C3%B3n%20por%20favor%20'>
                           
                         <h1 className='bg-sky-700 mx-2 mb-2 md:mb-4 md:w-56  w-full text-center py-3 text-white uppercase font-bold rounded-xl hover:cursor-pointer hover:bg-sky-800 transition-colors text-sm '>
@@ -101,6 +102,7 @@ const Home = () => {
           <div className='md:m-6 m-2'>   
             <NavLink 
             className='flex flex-row items-center m-4'
+            target="_blank"
             to='https://www.google.com/maps/place/Club+Formativo+Apolo/@-0.101196,-78.4549109,17.75z/data=!4m6!3m5!1s0x91d58f12a0be5d2f:0x8c734282396e8ad0!8m2!3d-0.1011077!4d-78.4537148!16s%2Fg%2F11c6lth50z?hl=es&entry=ttu'>
             <img className=" rounded-3xl md:w-96 " src={sliderCarrousel(`./maps.jpg`)} />
           </NavLink>   
@@ -110,6 +112,7 @@ const Home = () => {
           <div className='md:m-6 m-2'>   
             <NavLink 
             className='flex flex-row items-center m-4'
+            target="_blank"
             to='https://www.google.com/maps/place/Club+Formativo+Apolo/@-0.101196,-78.4549109,17.75z/data=!4m6!3m5!1s0x91d58f12a0be5d2f:0x8c734282396e8ad0!8m2!3d-0.1011077!4d-78.4537148!16s%2Fg%2F11c6lth50z?hl=es&entry=ttu'>
             <img className=" rounded-3xl md:w-96 " src={sliderCarrousel(`./maps.jpg`)} />
           </NavLink>   
@@ -124,6 +127,7 @@ const Home = () => {
 
                     <NavLink
                         className='flex justify-center'
+                        target="_blank"
                         to='https://api.whatsapp.com/send?phone=593960073310&text=hola,%20m%C3%A1s%20informaci%C3%B3n%20por%20favor%20'>
                         <h1 className='bg-sky-700 m-6 md:mb-6 md:w-56  w-full text-center py-3 text-white uppercase font-bold rounded-xl hover:cursor-pointer hover:bg-sky-800 transition-colors'>Más Información</h1>
 

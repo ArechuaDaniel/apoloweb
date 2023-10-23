@@ -44,7 +44,8 @@ const Header = () => {
               ))
             }
             <NavLink className={({isActive}) => (isActive ? 'text-red-400' : '')} 
-             to='http://sysrickyj09.pythonanywhere.com/login'>
+            target="_blank"
+             to='https://arechuadaniel.github.io/tkdsystem/'>
               <p className="p-4 md:hover:text-red-400 md:hover:bg-transparent hover:bg-red-400  hover:text-white md:w-full w-screen"><ion-icon name="log-in-outline"></ion-icon></p></NavLink>
 
           </ul>
