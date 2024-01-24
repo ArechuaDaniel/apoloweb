@@ -12,7 +12,7 @@ const Header = () => {
   ];
 
   const [open, setOpen] = useState(false);
-  
+
   return (
     <>
       <div className="bg-slate-800  text-white uppercase font-bold flex md:flex-row flex-col justify-between  h-24 md:items-center fixed w-full  ">
@@ -32,20 +32,20 @@ const Header = () => {
           </div>
         </div>
         {/* NavBar */}
-        <div className={`md:w-2/3   w-full  md:text-white text-red-400  `}>
+        <div className={` md:text-white text-red-400  `}>
 
           <ul className={`w-full bg-slate-800 bg-opacity-75 md:text-xl text-xs  flex md:flex-row flex-col md:justify-between md:items-center items-start transition-all duration-150 ease-in absolute md:static  ${open ? "top-20" : "top-[-490px]"}`}>
             {
               Links.map((Link) => (
                 <NavLink key={Link.name}
-                className={({isActive}) => (isActive ? 'text-red-400' : '')} 
-               to={Link.link}> 
-                <p className="p-4 md:hover:text-red-400 md:hover:bg-transparent hover:bg-red-400 md:w-full w-screen hover:text-white ">{Link.name}</p></NavLink>
+                  className={({ isActive }) => (isActive ? 'text-red-400' : '')}
+                  to={Link.link}>
+                  <p className="p-4 md:hover:text-red-400 md:hover:bg-transparent hover:bg-red-400 md:w-full w-screen hover:text-white ">{Link.name}</p></NavLink>
               ))
             }
-            <NavLink className={({isActive}) => (isActive ? 'text-red-400' : '')} 
-            target="_blank"
-             to='https://arechuadaniel.github.io/tkdsystem/'>
+            <NavLink className={({ isActive }) => (isActive ? 'text-red-400' : '')}
+              target="_blank"
+              to='https://arechuadaniel.github.io/tkdsystem/'>
               <p className="p-4 md:hover:text-red-400 md:hover:bg-transparent hover:bg-red-400  hover:text-white md:w-full w-screen"><ion-icon name="log-in-outline"></ion-icon></p></NavLink>
 
           </ul>

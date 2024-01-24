@@ -14,7 +14,7 @@ const Home = () => {
       <div className='bg-slate-700 w-screen ' >
 
         <div className='flex md:items-center items-end justify-center md:justify-start h-96' 
-        style={{backgroundImage: `url('https://i.pinimg.com/564x/1a/a7/c5/1aa7c542ffd6a513cb6f1c6da6a432da.jpg')`,height:'100vh',
+        style={{backgroundImage: `url('https://i.pinimg.com/564x/1a/a7/c5/1aa7c542ffd6a513cb6f1c6da6a432da.jpg')`,height:'80vh',
         fontSize:'50px',
         backgroundSize: 'cover',
         backgroundRepeat: 'no-repeat',}}
@@ -40,11 +40,11 @@ const Home = () => {
         </div>
 
         {/* //ACERCA DE NOSOTROS */}
-        <div className='m-4 text-white flex md:flex-row flex-col-reverse'>
-          <div className='md:w-1/3 md:ml-44 m-6'>
-            <img className='h-96  ' src={sliderCarrousel(`./2.jpg`)} alt='Imagen' />
+        <div className='text-white flex md:flex-row flex-col-reverse items-center m-6 '>
+          <div className='md:w-1/2 m-6'>
+            <img className='h-80 rounded-xl shadow-lg ' src={sliderCarrousel(`./2.jpg`)} alt='Imagen' />
           </div>
-          <div className='md:w-2/3 md:m-6 m-2'>
+          <div className='md:w-1/2 m-6'>
             <h1 className='md:text-5xl text-2xl uppercase mb-4'>Acerca de nuestro<span className='text-red-400'> club </span></h1>
             <p className='text-justify w:mr-64'>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laudantium maxime excepturi nam tenetur dolores. Hic nihil nostrum adipisci quia atque ipsam, explicabo recusandae dicta in debitis sunt unde. Impedit, ipsum. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sed ducimus corrupti, hic quibusdam fugiat blanditiis aliquid</p>
 

@@ -53,7 +53,7 @@ const Footer = () => {
       </div>
       {/* DERECHOS RESERVADOS */}
       <div className='bg-slate-800 text-white p-5'>
-        <span className='flex justify-center text-center'>Todos los derechos reservados PortoSystemsDA {fecha} </span>
+        <span className='flex justify-center text-center'>Todos los derechos reservados ODSMARTECH {fecha} </span>
       </div>
     </>
   )

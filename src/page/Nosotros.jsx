@@ -17,29 +17,30 @@ const Nosotros = () => {
 
                 <div className=''>
                     {/* VISION */}
-                    <div className='flex md:flex-row flex-col justify-around items-center'>
-                        <div className='md:w-1/3 md:ml-48 m-6'>
-                            <h1 className='md:text-3xl text-2xl'>VISIÓN</h1>
+                    <div className='flex md:flex-row flex-col items-center md:bg-slate-700 bg-black'>
+                        <div className='md:w-1/3 md:ml-48 m-6 '>
+                            <h1 className='md:text-3xl text-2xl text-red-400'>VISIÓN</h1>
                             <p className='text-justify mt-4'>
                                 Nuestra visión es convertirnos en una academia líder en taekwondo reconocida a nivel local y nacional. Nos esforzamos por ser un referente en la formación de atletas de alto rendimiento, así como en la promoción de estilos de vida saludables a través de la práctica del taekwondo. Buscamos generar un impacto positivo en la comunidad, fomentando valores de respeto, responsabilidad y superación personal. Aspiramos a ser un centro de excelencia en la enseñanza del taekwondo, brindando programas de calidad y oportunidades de crecimiento para nuestros estudiantes.</p>
 
                         </div>
                         <div className='md:w-2/3 rounded-lg m-6 '>
-                            <img className='rounded-md ' src={sliderCarrousel(`./7.jpg`)} alt='Imagen' />
+                            <img className='rounded-md h-72 md:w-80' src={sliderCarrousel(`./7.jpg`)} alt='Imagen' />
                         </div>
                     </div>
 
                     {/* MISION */}
-                    <div className='flex md:flex-row-reverse flex-col justify-center items-center'>
-                        <div className='md:w-1/2 md:mr-48 m-6'>
+                    <div className='flex md:flex-row flex-col-reverse justify-center md:bg-slate-700 bg-black'>
+                        <div className='md:w-1/3 rounded-lg m-6 '>
+                            <img className='rounded-md h-72 md:w-80' src={sliderCarrousel(`./6.jpg`)} alt='Imagen' />
+                        </div>
+                        <div className='md:w-1/3 m-6'>
                             <h1 className='md:text-3xl text-2xl text-red-400'>MISIÓN</h1>
                             <p className='text-justify mt-4'>
                                 Nuestra misión es proporcionar a nuestros estudiantes una educación integral en taekwondo, promoviendo el desarrollo físico, mental y espiritual. Nos comprometemos a enseñar las técnicas y valores fundamentales del taekwondo, fomentando el respeto, la disciplina y el trabajo en equipo. Buscamos formar atletas competentes y personas de carácter íntegro que puedan enfrentar los desafíos de la vida con confianza y determinación.</p>
 
                         </div>
-                        <div className='md:w-1/2 rounded-lg m-6 '>
-                            <img className='rounded-md ' src={sliderCarrousel(`./6.jpg`)} alt='Imagen' />
-                        </div>
+                        
                     </div>
                 </div>
                 <div className='md:mx-auto text-white m-6 md:w-1/2 bg-slate-800 rounded-xl mb-6'>
